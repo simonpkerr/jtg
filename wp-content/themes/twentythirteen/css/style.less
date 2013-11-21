@@ -149,36 +149,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	max-width: 100%;
 }
 
-/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
-.entry-content img,
-.entry-summary img,
-.comment-content img[height],
-img[class*="align"],
-img[class*="wp-image-"],
-img[class*="attachment-"] {
-	height: auto;
-}
-
-img.size-full,
-img.size-large,
-img.wp-post-image {
-	height: auto;
-	max-width: 100%;
-}
-
-/* Make sure videos and embeds fit their containers. */
-embed,
-iframe,
-object,
-video {
-	max-width: 100%;
-}
-
-/* Override the Twitter embed fixed width. */
-.entry-content .twitter-tweet-rendered {
-	max-width: 100% !important;
-}
-
 /* Images */
 .alignleft {
 	float: left;
@@ -194,30 +164,72 @@ video {
 	margin-right: auto;
 }
 
-img.alignleft {
+/* Make sure images with WordPress-added height and width attributes are scaled correctly. */
+.entry-content img,
+.entry-summary img,
+.comment-content img[height] {
+	height: auto;
+}
+
+img {
+    &.size-full,
+    &.size-large,
+    &.wp-post-image {
+        height: auto;
+        max-width: 100%;
+    }
+    
+    &[class*="align"],
+    &[class*="wp-image-"],
+    &[class*="attachment-"]{
+        height: auto;
+    }
+    
+    &.alignleft {
 	margin: 5px 20px 5px 0;
-}
-
-.wp-caption.alignleft {
-	margin: 5px 10px 5px 0;
-}
-
-img.alignright {
+    }
+    
+    &.alignright {
 	margin: 5px 0 5px 20px;
-}
-
-.wp-caption.alignright {
-	margin: 5px 0 5px 10px;
-}
-
-img.aligncenter {
+    }
+    &.aligncenter {
 	margin: 5px auto;
+    }
+
+    &.alignnone {
+            margin: 5px 0;
+    }
+    
 }
 
-img.alignnone {
-	margin: 5px 0;
+/* Make sure videos and embeds fit their containers. */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
 }
 
+/* Override the Twitter embed fixed width. */
+.entry-content .twitter-tweet-rendered {
+	max-width: 100% !important;
+}
+
+.wp-caption {
+    &.alignleft {
+	margin: 5px 10px 5px 0;
+        + ul,
+        + ol  {
+                list-style-position: inside;
+        }
+
+    }
+    &.alignright {
+	margin: 5px 0 5px 10px;
+    }
+}
+
+.wp-caption
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
@@ -237,7 +249,152 @@ img.wp-smiley,
 	padding: 0;
 }
 
-.wp-caption.alignleft + ul,
-.wp-caption.alignleft + ol  {
-	list-style-position: inside;
+
+/**
+ * Basic Structure
+ * ----------------------------------------------------------------------------
+ */
+
+/*.site {
+	background-color: #fff;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}*/
+
+.site-main {
+	//position: relative;
+        .sidebar-container {
+                height: 0;
+                position: absolute;
+                top: 40px;
+                width: 100%;
+                z-index: 1;
+        }
+        .sidebar-inner {
+                margin: 0 auto;
+                max-width: 1040px;
+        }
+}
+
+/**
+ * Header
+ * ----------------------------------------------------------------------------
+ */
+
+/**
+ * Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header {
+    .home-link {
+	color: @text-color-light;
+	text-decoration: none;
+    }
+    
+    .site-title {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .search-form {
+            position: absolute;
+            right: 20px;
+            top: 1px;
+    }
+
+    .search-field {
+            background-color: transparent;
+            background-image: url(images/search-icon.png);
+            background-position: 5px center;
+            background-repeat: no-repeat;
+            background-size: 24px 24px;
+            border: none;
+            cursor: pointer;
+            height: 37px;
+            margin: 3px 0;
+            padding: 0 0 0 34px;
+            position: relative;
+            -webkit-transition: width 400ms ease, background 400ms ease;
+            transition:         width 400ms ease, background 400ms ease;
+            width: 0;
+    }
+
+    .search-field:focus {
+            background-color: #fff;
+            border: 2px solid #c3c0ab;
+            cursor: text;
+            outline: 0;
+            width: 230px;
+    }
+    
+}
+
+
+/**
+ * Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.nav-menu {
+    /*> ul {
+	margin: 0;
+	padding: 0 40px 0 0;    
+    }*/
+    li {
+           display: inline-block;
+           position: relative;
+        a {
+            color: #141412;
+            display: block;
+            font-size: 15px;
+            line-height: 1;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+    }
+    .sub-menu,
+    .children {
+	background-color: #220e10;
+	border: 2px solid #f7f5e7;
+	border-top: 0;
+	display: none;
+	padding: 0;
+	position: absolute;
+	left: -2px;
+	z-index: 99999;
+        
+        ul {
+            border-left: 0;
+            left: 100%;
+            top: 0;
+        }
+    }
+    
+    
+    .current_page_item,
+    .current_page_ancestor,
+    .current-menu-item,
+    .current-menu-ancestor {
+        > a {
+            color: #bc360a;
+            font-style: italic;    
+        }	
+    } 
+}
+
+/* Navbar */
+.navbar {
+	background-color: #f7f5e7;
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+
+.menu-toggle {
+	display: none;
 }
