@@ -39,9 +39,34 @@
 
 // Typography
 // -------------------------
+@font-face {
+    font-family: 'journalregular';
+    src: url('../fonts/journal-webfont.eot');
+    src: url('../fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/journal-webfont.woff') format('woff'),
+         url('../fonts/journal-webfont.ttf') format('truetype'),
+         url('../fonts/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'cantarellregular';
+    src: url('../fonts/Cantarell-Regular-webfont.eot');
+    src: url('../fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Cantarell-Regular-webfont.woff') format('woff'),
+         url('../fonts/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-@font-family-sans-serif:  "Cantarell", Tahoma, Arial, sans-serif;
-@font-family-serif:       "Journal", "Freestyle Script", "Times New Roman", Times, serif;
+}
+
+
+
+
+
+@font-family-sans-serif:  "cantarellregular", Tahoma, Arial, sans-serif;
+@font-family-serif:       "journalregular", "Freestyle Script", "Times New Roman", Times, serif;
 @font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
@@ -52,7 +77,7 @@
 @line-height-base:        1.428571429; // 20/14
 @line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
 
-@headings-font-family:    @font-family-base;
+@headings-font-family:    @font-family-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 
@@ -60,6 +85,7 @@
 // -------------------------
 
 @icon-font-path:          "../fonts/";
+@font-path:               @icon-font-path;  
 @icon-font-name:          "glyphicons-halflings-regular";
 
 

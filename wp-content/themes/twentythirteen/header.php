@@ -33,17 +33,28 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed container">
 		<header id="masthead" class="site-header row" role="banner">
-                    
-			<a class="h1 col-xs-8 col-sm-6" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<?php bloginfo( 'name' ); ?>
-				<small><?php bloginfo( 'description' ); ?></small>
-			</a>
-			
+                        <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
                         <nav id="site-navigation" class="navbar navbar-default" role="navigation">
-                                <a class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></a>
-                                <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-                                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-                                <?php get_search_form(); ?>
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jtg-navbar-collapse">
+                                    <span class="sr-only">Toggle nav</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                    <?php bloginfo( 'name' ); ?>
+                                    <small><?php bloginfo( 'description' ); ?></small>
+                                </a>
+                            </div>			
+                            
+                            <?php wp_nav_menu( array(
+                                'menu'              => 'primary',
+                                'theme_location'    => 'primary', 
+                                'container_class'   => 'collapse navbar-collapse',
+                                'container_id'      => 'jtg-navbar-collapse',
+                             )); ?>
+                            <?php get_search_form(); ?>
                         </nav><!-- #site-navigation -->
                                 
 		</header><!-- #masthead -->

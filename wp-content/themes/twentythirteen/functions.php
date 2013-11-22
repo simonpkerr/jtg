@@ -95,6 +95,8 @@ function twentythirteen_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menu( 'primary', __( 'Navigation Menu', 'twentythirteen' ) );
+        register_nav_menu( 'jtg-nav', __( 'Navigation Menu', 'twentythirteen' ) );
+        
 
 	/*
 	 * This theme uses a custom image size for featured images, displayed on
