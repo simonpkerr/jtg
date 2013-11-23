@@ -34,7 +34,7 @@
 	<div id="page" class="hfeed container">
 		<header id="masthead" class="site-header row" role="banner">
                         <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-                        <nav id="site-navigation" class="navbar navbar-default" role="navigation">
+                        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jtg-navbar-collapse">
                                     <span class="sr-only">Toggle nav</span>
@@ -42,19 +42,20 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <a class="navbar-brand h1" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                                     <?php bloginfo( 'name' ); ?>
-                                    <small><?php bloginfo( 'description' ); ?></small>
+                                    <span>(<?php bloginfo( 'description' ); ?>)</span>
                                 </a>
                             </div>			
-                            
-                            <?php wp_nav_menu( array(
-                                'menu'              => 'primary',
-                                'theme_location'    => 'primary', 
-                                'container_class'   => 'collapse navbar-collapse',
-                                'container_id'      => 'jtg-navbar-collapse',
-                             )); ?>
-                            <?php get_search_form(); ?>
+                            <div id="jtg-navbar-collapse" class="collapse navbar-collapse navbar-right">
+                                <?php wp_nav_menu( array(
+                                    'menu'              => 'jtg-primary',
+                                    'theme_location'    => 'primary',
+                                    'container'         => '',
+                                    'menu_class'        => 'nav navbar-nav'
+                                 )); ?>
+                                <?php get_search_form(); ?>
+                            </div>
                         </nav><!-- #site-navigation -->
                                 
 		</header><!-- #masthead -->

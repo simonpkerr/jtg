@@ -56,11 +56,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.hentry {
+/*.hentry {
 	padding: 40px 0;
-}
+}*/
 
-.entry-header,
+/*.entry-header,
 .entry-content,
 .entry-summary,
 .entry-meta {
@@ -75,7 +75,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .sidebar .entry-meta {
 	max-width: 1040px;
 	padding: 0 376px 0 60px;
-}
+}*/
 
 
 /**

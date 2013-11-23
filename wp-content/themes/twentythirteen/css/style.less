@@ -265,18 +265,21 @@ img.wp-smiley,
 }*/
 
 .site-main {
-	//position: relative;
-        .sidebar-container {
-                height: 0;
-                position: absolute;
-                top: 40px;
-                width: 100%;
-                z-index: 1;
-        }
-        .sidebar-inner {
-                margin: 0 auto;
-                max-width: 1040px;
-        }
+    background-color: lighten(@body-bg, 50%);
+    border-left: 20px solid darken(desaturate(@body-bg, 20%), 5%);
+    border-right: 20px solid darken(desaturate(@body-bg, 20%), 5%);
+    
+    .sidebar-container {
+            height: 0;
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            z-index: 1;
+    }
+    .sidebar-inner {
+            margin: 0 auto;
+            max-width: 1040px;
+    }
 }
 
 /**
@@ -300,35 +303,37 @@ img.wp-smiley,
             text-decoration: underline;
         }
     }
-    .search-form {
-            position: absolute;
-            right: 20px;
-            top: 1px;
-    }
-
+   
     .search-field {
-            background-color: transparent;
+            background-color: lighten(@navbar-default-bg, 10%);
             background-image: url(images/search-icon.png);
             background-position: 5px center;
             background-repeat: no-repeat;
             background-size: 24px 24px;
-            border: none;
             cursor: pointer;
-            height: 37px;
+            //height: 37px;
             margin: 3px 0;
             padding: 0 0 0 34px;
             position: relative;
             -webkit-transition: width 400ms ease, background 400ms ease;
             transition:         width 400ms ease, background 400ms ease;
-            width: 0;
+            width: 150px;
     }
 
     .search-field:focus {
-            background-color: #fff;
-            border: 2px solid #c3c0ab;
+            background-color: @navbar-default-color;
             cursor: text;
             outline: 0;
-            width: 230px;
+            width: 150px;
+    }
+    
+    .search-submit{
+        display: none;
+    }
+    
+    .navbar-brand.h1 {
+        font-size: floor(@font-size-base * 2.40);
+        
     }
     
 }
@@ -337,41 +342,49 @@ img.wp-smiley,
  * Navigation
  * ----------------------------------------------------------------------------
  */
+.navbar {
+    .box-shadow(0 5px 0 0 rgba(73, 64, 62, 0.2));
+}
 
-.nav-menu {
-    /*> ul {
-	margin: 0;
-	padding: 0 40px 0 0;    
-    }*/
+.nav {
     li {
            display: inline-block;
            position: relative;
         a {
-            color: #141412;
+            font-family: @font-family-serif;
+            font-size: ceil(@font-size-base * 1.70);
+            color: @navbar-default-color;
             display: block;
-            font-size: 15px;
-            line-height: 1;
-            padding: 15px 20px;
+            line-height: @line-height-computed;
+            padding: 20px 15px;
             text-decoration: none;
         }
-    }
-    .sub-menu,
-    .children {
-	background-color: #220e10;
-	border: 2px solid #f7f5e7;
-	border-top: 0;
-	display: none;
-	padding: 0;
-	position: absolute;
-	left: -2px;
-	z-index: 99999;
         
-        ul {
-            border-left: 0;
-            left: 100%;
-            top: 0;
+        .sub-menu,
+        .children {
+            background-color: @navbar-default-bg;
+            border: 2px solid #f7f5e7;
+            border-top: 0;
+            padding: 0;
+            position: absolute;
+            left: -9999em;
+            z-index: 99999;
+
+            ul {
+                border-left: 0;
+                left: 100%;
+                top: 0;
+            }
+        }
+        
+        &:hover {
+            .sub-menu,
+            .children {
+                left: 0;
+            }
         }
     }
+    
     
     
     .current_page_item,
@@ -385,15 +398,28 @@ img.wp-smiley,
     } 
 }
 
-/* Navbar */
-.navbar {
-	background-color: #f7f5e7;
+/**
+ * Content
+ * ----------------------------------------------------------------------------
+ */
+//post entry
+.hentry {
+	padding: 40px 0;
+}
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta {
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 604px;
 	width: 100%;
 }
 
-
-.menu-toggle {
-	display: none;
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+	max-width: 1040px;
+	padding: 0 376px 0 60px;
 }
