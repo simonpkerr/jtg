@@ -83,20 +83,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.sidebar .entry-header .entry-meta {
+/*.sidebar .entry-header .entry-meta {
 	padding: 0;
 }
 
 .entry-thumbnail img {
-	display: block;
-	margin: 0 auto 10px;
-}
 
-.entry-header {
+}*/
+
+/*.entry-header {
 	margin-bottom: 30px;
-}
+}*/
 
-.entry-title {
+/*.entry-title {
 	font-weight: normal;
 	margin: 0 0 5px;
 }
@@ -107,7 +106,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .entry-title a:hover {
 	color: #ea9629;
-}
+}*/
 
 
 /**
@@ -115,7 +114,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.entry-meta {
+/*.entry-meta {
 	clear: both;
 	font-size: 14px;
 }
@@ -181,7 +180,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .sticky.format-image .entry-meta .date,
 .sticky.format-gallery .entry-meta .date {
 	display: none;
-}
+}*/
 
 
 /**
@@ -189,7 +188,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.entry-content {
+/*.entry-content {
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
@@ -224,18 +223,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .entry-content img.alignright,
 .entry-content .wp-caption.alignright {
 	margin-right: -60px;
-}
+}*/
 
-footer.entry-meta {
+/*footer.entry-meta {
 	margin-top: 24px;
 }
 
 .format-standard footer.entry-meta {
 	margin-top: 0;
-}
+}*/
 
 /* Page links */
-.page-links {
+/*.page-links {
 	clear: both;
 	font-size: 16px;
 	font-style: italic;
@@ -251,7 +250,7 @@ footer.entry-meta {
 	border: 1px solid #fff;
 	padding: 5px 10px;
 	text-decoration: none;
-}
+}*/
 
 .format-status .entry-content .page-links a,
 .format-gallery .entry-content .page-links a,

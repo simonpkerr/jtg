@@ -3,7 +3,7 @@ Theme Name: Bootstrap Twenty Thirteen
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: the WordPress team, modifications by Simon Kerr
 Author URI: http://wordpress.org/
-Description: Twentythirteen style but with bootstrap strapped on
+Description: Twentythirteen style but with bootstrap 3 strapped on
 Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -392,7 +392,7 @@ img.wp-smiley,
     .current-menu-item,
     .current-menu-ancestor {
         > a {
-            color: #bc360a;
+            color: @link-color;
             font-style: italic;    
         }	
     } 
@@ -404,22 +404,168 @@ img.wp-smiley,
  */
 //post entry
 .hentry {
-	padding: 40px 0;
+	padding-top: 4em;
 }
 
 .entry-header,
 .entry-content,
 .entry-summary,
 .entry-meta {
-	margin: 0 auto;
+	/*margin: 0 auto;
 	max-width: 604px;
-	width: 100%;
+	width: 100%;*/
 }
 
-.sidebar .entry-header,
-.sidebar .entry-content,
-.sidebar .entry-summary,
-.sidebar .entry-meta {
-	max-width: 1040px;
-	padding: 0 376px 0 60px;
+.sidebar {
+   .entry-header,
+   .entry-content,
+   .entry-summary,
+   .entry-meta {
+        /*max-width: 1040px;
+        padding: 0 376px 0 60px;*/
+    }
+    
+    .entry-header {
+        margin-bottom: 30px;
+        .entry-meta {
+            padding: 0;
+        }
+    }
 }
+
+.entry-thumbnail {
+    img {
+    	display: block;
+	margin: 0 auto 10px;
+    }
+}
+
+.entry-title {
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+/**
+ * 5.2 Entry Meta
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-meta {
+    clear: both;
+    font-size: 14px;
+    a {
+	color: @link-color;
+        &:hover{
+            color: @link-hover-color;
+        }
+    }
+    
+    > span {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    
+    .date a:before {
+	content: "\f303";
+    }
+    
+    .author a:before {
+	content: "\f304";
+	position: relative;
+	top: -1px;
+    }
+}
+
+.featured-post {
+    &:before {
+	content: "\f308";
+	margin-right: 2px;
+    }
+}
+
+.comments-link a:before {
+	content: "\f300";
+	margin-right: 2px;
+	position: relative;
+	top: -1px;
+}
+
+.categories-links a:first-child:before {
+	content: "\f301";
+}
+
+.tags-links a:first-child:before {
+	content: "\f302";
+	position: relative;
+	top: -1px;
+}
+
+.edit-link a:before {
+	content: "\f411";
+	position: relative;
+	top: -1px;
+}
+
+.single-author .entry-meta .author,
+.sticky.format-standard .entry-meta .date,
+.sticky.format-audio .entry-meta .date,
+.sticky.format-chat .entry-meta .date,
+.sticky.format-image .entry-meta .date,
+.sticky.format-gallery .entry-meta .date {
+	display: none;
+}
+
+/**
+ * Entry Content
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content {
+    -webkit-hyphens: auto;
+    -moz-hyphens:    auto;
+    -ms-hyphens:     auto;
+    hyphens:         auto;
+    word-wrap: break-word;
+    
+    /*img.alignleft,
+    .wp-caption.alignleft {
+            margin-left: -60px;
+    }
+
+    img.alignright,
+    .wp-caption.alignright {
+            margin-right: -60px;
+    }*/
+
+
+}
+
+
+footer.entry-meta {
+    margin-top: 24px;
+}
+
+.format-standard footer.entry-meta {
+    margin-top: 0;
+}
+
+/* Page links */
+/*.page-links {
+	clear: both;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 2.2;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+.page-links a,
+.page-links > span {
+	background: #fff;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+}*/

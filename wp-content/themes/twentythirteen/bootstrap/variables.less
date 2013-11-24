@@ -19,6 +19,7 @@
 // -------------------------
 
 @brand-primary:         #372291;
+@brand-secondary:       #F8B647;
 @brand-success:         #29DE29;
 @brand-warning:         #EC2104;
 @brand-danger:          #EC2104;
@@ -28,13 +29,15 @@
 // -------------------------
 
 @body-bg:               #FAF5DA;
+@footer-bg:             lighten(@body-bg, 60%);
+@sidebar-bg:            lighten(@brand-secondary, 50%);
 @text-color:            #180D3F;
 @text-color-light:      #FFFCE4;
 
 // Links
 // -------------------------
 
-@link-color:            #362291;
+@link-color:            #47631D;
 @link-hover-color:      darken(@link-color, 15%);
 
 // Typography
@@ -60,10 +63,6 @@
     font-style: normal;
 
 }
-
-
-
-
 
 @font-family-sans-serif:  "cantarellregular", Tahoma, Arial, sans-serif;
 @font-family-serif:       "journalregular", "Freestyle Script", "Times New Roman", Times, serif;
@@ -619,16 +618,16 @@
 // ------------------------
 @text-muted:                  @gray-light;
 @abbr-border-color:           @gray-light;
-@headings-small-color:        @gray-light;
+@headings-small-color:        lighten(desaturate(@brand-primary, 30%), 20%);
 @blockquote-small-color:      @gray-light;
-@blockquote-border-color:     @gray-lighter;
-@page-header-border-color:    @gray-lighter;
+@blockquote-border-color:     @brand-secondary;
+@page-header-border-color:    @brand-secondary;
 
 // Miscellaneous
 // -------------------------
 
 // Hr border color
-@hr-border:                   @gray-lighter;
+@hr-border:                   @brand-secondary;
 
 // Horizontal forms & lists
 @component-offset-horizontal: 180px;
