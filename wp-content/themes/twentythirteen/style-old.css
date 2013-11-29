@@ -252,7 +252,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	text-decoration: none;
 }*/
 
-.format-status .entry-content .page-links a,
+/*.format-status .entry-content .page-links a,
 .format-gallery .entry-content .page-links a,
 .format-chat .entry-content .page-links a,
 .format-quote .entry-content .page-links a,
@@ -271,9 +271,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .page-links a:hover {
 	background: #fff;
 	color: #e63f2a;
-}
+}*/
 
-.format-status .entry-content .page-links > span,
+/*.format-status .entry-content .page-links > span,
 .format-quote .entry-content .page-links > span {
 	background: none;
 }
@@ -283,20 +283,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	border: none;
 	margin-right: 20px;
 	padding: 0;
-}
+}*/
 
 /* Mediaelements */
-.hentry .mejs-mediaelement,
+/*.hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
 	background: #220e10;
-}
+}*/
 
-.hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
+/*.hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
 	background: #fff;
-}
+}*/
 
-.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+/*.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
 	background: #ea9629;
 }
 
@@ -309,14 +309,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
 	border-radius: 0;
-}
+}*/
 
 
 /**
  * 5.4 Galleries
  * ----------------------------------------------------------------------------
  */
-
+/*
 .gallery {
 	margin-bottom: 20px;
 	margin-left: -4px;
@@ -429,7 +429,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .gallery-columns-8 .gallery-caption,
 .gallery-columns-9 .gallery-caption {
 	display: none;
-}
+}*/
 
 
 /**
@@ -438,7 +438,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 /* Aside */
-.format-aside {
+/*.format-aside {
 	background-color: #f7f5e7;
 }
 
@@ -467,10 +467,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .format-aside cite:before {
 	content: "\2014";
 	margin-right: 5px;
-}
+}*/
 
 /* Audio */
-.format-audio {
+/*.format-audio {
 	background-color: #db572f;
 }
 
@@ -506,16 +506,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .format-audio .wp-audio-shortcode {
 	height: 30px !important; /* Override mediaelement.js style */
-	margin: 20px 0;
+	/*margin: 20px 0;
 	max-width: 400px !important; /* Override mediaelement.js style */
-}
+/*}*/
 
-.format-audio audio {
+/*.format-audio audio {
 	max-width: 100% !important; /* Avoid player width overflow. */
-}
+}*/
 
 /* Chat */
-.format-chat {
+/*.format-chat {
 	background-color: #eadaa6;
 }
 
@@ -552,10 +552,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .format-chat .chat .fn {
 	font-style: normal;
-}
+}*/
 
 /* Gallery */
-.format-gallery {
+/*.format-gallery {
 	background-color: #fbca3c;
 }
 
@@ -572,10 +572,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .format-gallery .entry-meta a,
 .format-gallery .entry-content a {
 	color: #722d19;
-}
+}*/
 
 /* Image */
-.format-image .entry-title {
+/*.format-image .entry-title {
 	font-size: 28px;
 	font-weight: bold;
 }
@@ -583,24 +583,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .format-image .categories-links,
 .format-image .tags-links {
 	display: none;
-}
+}*/
 
 /* Link */
-.format-link {
+/*.format-link {
 	background-color: #f7f5e7;
-}
+}*/
 
-.blog .format-link:first-of-type,
+/*.blog .format-link:first-of-type,
 .single .format-link:first-of-type {
 	box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2);
-}
+}*/
 
-.format-link .entry-header,
+/*.format-link .entry-header,
 .format-link .entry-content p:last-child {
 	margin-bottom: 0;
-}
+}*/
 
-.format-link .entry-title {
+/*.format-link .entry-title {
 	color: #ca3c08;
 	display: inline;
 	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
@@ -613,10 +613,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .format-link div.entry-meta {
 	display: inline;
-}
+}*/
 
 /* Quote */
-.format-quote {
+/*.format-quote {
 	background-color: #210d10;
 }
 
@@ -671,10 +671,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .format-quote .entry-meta .author {
 	display: none;
-}
+}*/
 
 /* Status */
-.format-status {
+/*.format-status {
 	background-color: #722d19;
 	padding: 0;
 }
@@ -722,7 +722,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 /* Ensures the dots in the dot background are in lockstep. */
-.format-status .entry-meta:before {
+/*.format-status .entry-meta:before {
 	background-position: left top;
 }
 
@@ -761,10 +761,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .format-status .entry-meta .date a:before {
 	content: "\f105";
-}
+}*/
 
 /* Video */
-.format-video {
+/*.format-video {
 	background-color: #db572f;
 }
 
@@ -783,14 +783,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .format-video .entry-meta {
 	color: #220e10;
 }
-
+*/
 
 /**
  * 5.6 Attachments
  * ----------------------------------------------------------------------------
  */
 
-.attachment .hentry {
+/*.attachment .hentry {
 	background-color: #e8e5ce;
 	margin: 0;
 	padding: 0;
@@ -822,7 +822,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	max-width: 604px;
 	padding: 9px 0 0;
 	text-align: right;
-}
+}*/
 
 .hentry.attachment:not(.image-attachment) .entry-meta {
 	max-width: 104px;
