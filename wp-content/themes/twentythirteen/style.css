@@ -6486,8 +6486,8 @@ img.wp-smiley,
 .nav li:hover .children {
   left: 0;
 }
-/* line 402, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003402}}
+/* line 400, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003400}}
 .nav .current_page_item > a,
 .nav .current_page_ancestor > a,
 .nav .current-menu-item > a,
@@ -6495,64 +6495,190 @@ img.wp-smiley,
   color: #47631d;
   font-style: italic;
 }
+/* line 408, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003408}}
+.navigation .nav-previous {
+  float: left;
+}
+/* line 412, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003412}}
+.navigation .nav-next {
+  float: right;
+}
+/* line 416, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003416}}
+.navigation a {
+  color: #372291;
+}
+/* line 418, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003418}}
+.navigation a:hover {
+  color: #080515;
+  text-decoration: none;
+}
+/* line 426, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003426}}
+.paging-navigation {
+  background-color: #faf5da;
+  padding: 40px 0;
+}
+/* line 429, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003429}}
+.paging-navigation .nav-links {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 433, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003433}}
+  .paging-navigation .nav-links {
+    max-width: 600px;
+  }
+}
+/* line 438, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003438}}
+.paging-navigation .nav-next {
+  padding: 13px 0;
+}
+/* line 441, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003441}}
+.paging-navigation .nav-next .meta-nav {
+  margin-left: 10px;
+}
+/* line 446, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003446}}
+.paging-navigation a {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 300;
+}
+/* line 451, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003451}}
+.paging-navigation a:hover .meta-nav {
+  background-color: #f8b647;
+  text-decoration: none;
+}
+/* line 458, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003458}}
+.paging-navigation .meta-nav {
+  background-color: #f8b647;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 26px;
+  padding: 3px 0 8px;
+  text-align: center;
+  width: 50px;
+}
+/* line 469, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003469}}
+.paging-navigation .nav-previous .meta-nav {
+  margin-right: 10px;
+  padding: 17px 0 23px;
+  width: 80px;
+}
+/* line 477, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003477}}
+.post-navigation {
+  background-color: #fff;
+  color: #f8b647;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  padding: 20px 0;
+}
+/* line 484, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003484}}
+.post-navigation .nav-links {
+  margin: 0 auto;
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 487, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003487}}
+  .post-navigation .nav-links {
+    max-width: 600px;
+  }
+}
+/* line 492, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003492}}
+.post-navigation a {
+  max-width: 300px;
+}
+/* line 494, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003494}}
+.post-navigation a[rel="next"] {
+  float: right;
+  text-align: right;
+}
+/* line 498, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003498}}
+.post-navigation a[rel="prev"] {
+  float: left;
+  text-align: left;
+}
+/*.sidebar .post-navigation .nav-links {
+	padding: 0 376px 0 60px;
+}*/
 /**
  * Content
  * ----------------------------------------------------------------------------
  */
-/* line 414, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003414}}
+/* line 515, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003515}}
 .hentry {
   padding-top: 4em;
   /* Mediaelements */
 }
-/* line 417, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003417}}
+/* line 518, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003518}}
 .hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
   background: #220e10;
 }
-/* line 422, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003422}}
+/* line 523, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003523}}
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
   background: #fff;
 }
-/* line 427, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003427}}
+/* line 528, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003528}}
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
   background: #ea9629;
 }
-/* line 431, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003431}}
+/* line 532, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003532}}
 .hentry .mejs-controls .mejs-time-rail .mejs-time-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
   background: #595959;
 }
-/* line 436, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003436}}
+/* line 537, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003537}}
 .hentry .mejs-controls .mejs-time-rail span,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
   border-radius: 0;
 }
-/* line 446, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003446}}
+/* line 547, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003547}}
 .sidebar .entry-header {
   margin-bottom: 30px;
 }
-/* line 448, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003448}}
+/* line 549, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003549}}
 .sidebar .entry-header .entry-meta {
   padding: 0;
 }
-/* line 455, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003455}}
+/* line 556, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003556}}
 .entry-thumbnail img {
   display: block;
   margin: 0 auto 10px;
 }
-/* line 461, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003461}}
+/* line 562, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003562}}
 .entry-title {
   font-weight: normal;
   margin: 0 0 10px;
@@ -6561,79 +6687,79 @@ img.wp-smiley,
  * 5.2 Entry Meta
  * ----------------------------------------------------------------------------
  */
-/* line 471, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003471}}
+/* line 572, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003572}}
 .entry-meta {
   clear: both;
   font-size: 14px;
 }
-/* line 474, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003474}}
+/* line 575, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003575}}
 .entry-meta a {
   color: #47631d;
 }
-/* line 476, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003476}}
+/* line 577, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003577}}
 .entry-meta a:hover {
   color: #1d280c;
 }
-/* line 481, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003481}}
+/* line 582, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003582}}
 .entry-meta > span {
   margin-right: 20px;
 }
-/* line 483, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003483}}
+/* line 584, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003584}}
 .entry-meta > span:last-child {
   margin-right: 0;
 }
-/* line 488, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003488}}
+/* line 589, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003589}}
 .entry-meta .date a:before {
   content: "\f303";
 }
-/* line 492, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003492}}
+/* line 593, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003593}}
 .entry-meta .author a:before {
   content: "\f304";
   position: relative;
   top: -1px;
 }
-/* line 500, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003500}}
+/* line 601, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003601}}
 .featured-post:before {
   content: "\f308";
   margin-right: 2px;
 }
-/* line 506, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003506}}
+/* line 607, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003607}}
 .comments-link a:before {
   content: "\f300";
   margin-right: 2px;
   position: relative;
   top: -1px;
 }
-/* line 513, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003513}}
+/* line 614, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003614}}
 .categories-links a:first-child:before {
   content: "\f301";
 }
-/* line 517, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003517}}
+/* line 618, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003618}}
 .tags-links a:first-child:before {
   content: "\f302";
   position: relative;
   top: -1px;
 }
-/* line 523, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003523}}
+/* line 624, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003624}}
 .edit-link a:before {
   content: "\f411";
   position: relative;
   top: -1px;
 }
-/* line 529, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003529}}
+/* line 630, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003630}}
 .single-author .entry-meta .author,
 .sticky.format-standard .entry-meta .date,
 .sticky.format-audio .entry-meta .date,
@@ -6646,8 +6772,8 @@ img.wp-smiley,
  * Entry Content
  * ----------------------------------------------------------------------------
  */
-/* line 543, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003543}}
+/* line 644, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003644}}
 .entry-content {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -6664,13 +6790,13 @@ img.wp-smiley,
             margin-right: -60px;
     }*/
 }
-/* line 564, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003564}}
+/* line 665, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003665}}
 footer.entry-meta {
   margin-top: 24px;
 }
-/* line 568, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003568}}
+/* line 669, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003669}}
 .format-standard footer.entry-meta {
   margin-top: 0;
 }
@@ -6696,14 +6822,14 @@ footer.entry-meta {
  * 5.4 Galleries
  * ----------------------------------------------------------------------------
  */
-/* line 597, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003597}}
+/* line 698, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003698}}
 .gallery {
   margin-bottom: 20px;
   margin-left: -4px;
 }
-/* line 602, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003602}}
+/* line 703, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003703}}
 .gallery-item {
   float: left;
   margin: 0 4px 4px 0;
@@ -6711,21 +6837,21 @@ footer.entry-meta {
   position: relative;
 }
 @media (min-width: 992px) {
-  /* line 607, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003607}}
+  /* line 708, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003708}}
   .gallery-item {
     margin: 0 20px 20px 0;
   }
 }
 @media (min-width: 1200px) {
-  /* line 610, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003610}}
+  /* line 711, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003711}}
   .gallery-item {
     margin: 0 40px 40px 0;
   }
 }
-/* line 615, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003615}}
+/* line 716, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003716}}
 .gallery-columns-1.gallery-size-medium,
 .gallery-columns-1.gallery-size-thumbnail,
 .gallery-columns-2.gallery-size-thumbnail,
@@ -6733,57 +6859,57 @@ footer.entry-meta {
   display: table;
   margin: 0 auto 20px;
 }
-/* line 623, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003623}}
+/* line 724, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003724}}
 .gallery-columns-1 .gallery-item,
 .gallery-columns-2 .gallery-item,
 .gallery-columns-3 .gallery-item {
   text-align: center;
 }
-/* line 629, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003629}}
+/* line 730, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003730}}
 .gallery-columns-4 .gallery-item {
   max-width: 23%;
   max-width: -webkit-calc(21%);
   max-width: calc(21%);
 }
-/* line 635, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003635}}
+/* line 736, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003736}}
 .gallery-columns-5 .gallery-item {
   max-width: 19%;
   max-width: -webkit-calc(16%);
   max-width: calc(16%);
 }
-/* line 641, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003641}}
+/* line 742, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003742}}
 .gallery-columns-6 .gallery-item {
   max-width: 15%;
   max-width: -webkit-calc(12.7%);
   max-width: calc(12.7%);
 }
-/* line 647, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003647}}
+/* line 748, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003748}}
 .gallery-columns-7 .gallery-item {
   max-width: 13%;
   max-width: -webkit-calc(10.28%);
   max-width: calc(10.28%);
 }
-/* line 653, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003653}}
+/* line 754, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003754}}
 .gallery-columns-8 .gallery-item {
   max-width: 11%;
   max-width: -webkit-calc(8.5%);
   max-width: calc(8.5%);
 }
-/* line 659, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003659}}
+/* line 760, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003760}}
 .gallery-columns-9 .gallery-item {
   max-width: 9%;
   max-width: -webkit-calc(7.1%);
   max-width: calc(7.1%);
 }
-/* line 665, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003665}}
+/* line 766, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003766}}
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
 .gallery-columns-2 .gallery-item:nth-of-type(2n),
 .gallery-columns-3 .gallery-item:nth-of-type(3n),
@@ -6795,8 +6921,8 @@ footer.entry-meta {
 .gallery-columns-9 .gallery-item:nth-of-type(9n) {
   margin-right: 0;
 }
-/* line 677, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003677}}
+/* line 778, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003778}}
 .gallery-caption {
   background-color: rgba(0, 0, 0, 0.7);
   box-sizing: border-box;
@@ -6815,8 +6941,8 @@ footer.entry-meta {
   transition: opacity 400ms ease;
   width: 100%;
 }
-/* line 696, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003696}}
+/* line 797, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003797}}
 .gallery-caption:before {
   box-shadow: 0 -10px 15px #000000 inset;
   content: "";
@@ -6827,13 +6953,13 @@ footer.entry-meta {
   top: 0;
   width: 100%;
 }
-/* line 707, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003707}}
+/* line 808, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003808}}
 .gallery-item:hover .gallery-caption {
   opacity: 1;
 }
-/* line 711, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003711}}
+/* line 812, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003812}}
 .gallery-columns-7 .gallery-caption,
 .gallery-columns-8 .gallery-caption,
 .gallery-columns-9 .gallery-caption {
@@ -6844,31 +6970,31 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 /* Aside */
-/* line 726, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003726}}
+/* line 827, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003827}}
 .format-aside .entry-meta {
   margin-top: 0;
 }
-/* line 729, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003729}}
+/* line 830, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003830}}
 .format-aside blockquote {
   font-size: 100%;
   font-weight: normal;
 }
-/* line 733, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003733}}
+/* line 834, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003834}}
 .format-aside cite {
   font-size: 100%;
   text-transform: none;
 }
-/* line 736, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003736}}
+/* line 837, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003837}}
 .format-aside cite:before {
   content: "\2014";
   margin-right: 5px;
 }
-/* line 743, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003743}}
+/* line 844, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003844}}
 .blog .format-aside:first-of-type,
 .single .format-aside:first-of-type,
 .format-aside + .format-aside,
@@ -6877,8 +7003,8 @@ footer.entry-meta {
   box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2);
 }
 /* Audio */
-/* line 754, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003754}}
+/* line 855, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003855}}
 .format-audio .entry-title:before {
   content: "\f109";
   float: left;
@@ -6886,8 +7012,8 @@ footer.entry-meta {
   position: relative;
   top: 4px;
 }
-/* line 764, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003764}}
+/* line 865, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003865}}
 .format-audio .audio-content {
   background: url(images/dotted-line.png) repeat-y left top;
   background-size: 4px 4px;
@@ -6897,8 +7023,8 @@ footer.entry-meta {
   width: -webkit-calc(15%);
   width: calc(15%);
 }
-/* line 774, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003774}}
+/* line 875, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003875}}
 .format-audio .wp-audio-shortcode {
   height: 30px !important;
   /* Override mediaelement.js style */
@@ -6906,39 +7032,39 @@ footer.entry-meta {
   max-width: 400px !important;
   /* Override mediaelement.js style */
 }
-/* line 780, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003780}}
+/* line 881, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003881}}
 .format-audio audio {
   max-width: 100% !important;
   /* Avoid player width overflow. */
 }
 /* Chat */
-/* line 788, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003788}}
+/* line 889, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003889}}
 .format-chat .entry-meta .date a:before {
   content: "\f108";
   margin-right: 2px;
 }
-/* line 792, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003792}}
+/* line 893, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003893}}
 .format-chat .entry-meta .author {
   display: none;
 }
-/* line 797, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003797}}
+/* line 898, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003898}}
 .format-chat .chat {
   margin: 0;
 }
-/* line 799, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003799}}
+/* line 900, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003900}}
 .format-chat .chat .chat-timestamp {
   float: right;
   font-size: 12px;
   font-weight: normal;
   margin: 5px 10px 0;
 }
-/* line 805, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003805}}
+/* line 906, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003906}}
 .format-chat .chat .fn {
   font-style: normal;
 }
@@ -6946,21 +7072,21 @@ footer.entry-meta {
  * 5.6 Attachments
  * ----------------------------------------------------------------------------
  */
-/* line 817, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003817}}
+/* line 918, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003918}}
 .attachment .hentry {
   background-color: #f8b647;
   margin: 0;
   padding: 0;
 }
-/* line 822, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003822}}
+/* line 923, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003923}}
 .attachment .entry-title:before {
   content: "\f416";
   margin-right: 10px;
 }
-/* line 826, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003826}}
+/* line 927, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003927}}
 .attachment .entry-meta {
   clear: none;
   color: inherit;
@@ -6968,23 +7094,262 @@ footer.entry-meta {
   padding: 9px 0 0;
   text-align: right;
 }
-/* line 834, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003834}}
+/* line 935, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003935}}
 .attachment footer.entry-meta {
   display: none;
 }
-/* line 838, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003838}}
+/* line 939, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003939}}
 .attachment .attachment-meta:before {
   content: "\f307";
 }
-/* line 843, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003843}}
+/* line 944, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003944}}
 .attachment .full-size-link:before {
   content: none;
 }
-/* line 846, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003846}}
+/* line 947, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003947}}
 .attachment .full-size-link a:before {
   content: "\f402";
+}
+/* line 952, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003952}}
+.attachment .entry-attachment,
+.attachment .type-attachment p {
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+/* line 959, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003959}}
+.attachment .entry-attachment .attachment {
+  display: inline-block;
+}
+/* line 964, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003964}}
+.attachment .entry-caption {
+  text-align: left;
+}
+/* line 968, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003968}}
+.attachment .entry-description {
+  margin: 20px auto 0;
+}
+/* line 972, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003972}}
+.attachment .entry-caption p:last-child,
+.attachment .entry-description p:last-child {
+  margin: 0;
+}
+/* line 977, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003977}}
+.attachment .site-main .sidebar-container {
+  display: none;
+}
+/* line 983, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003983}}
+.image-navigation {
+  margin: 0 auto;
+  position: relative;
+}
+/* line 986, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003986}}
+.image-navigation a:hover {
+  text-decoration: none;
+}
+/* line 990, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003990}}
+.image-navigation .nav-previous,
+.image-navigation .nav-next {
+  position: absolute;
+  top: 50px;
+}
+/* line 996, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\00003996}}
+.image-navigation .nav-previous {
+  left: 0;
+}
+/* line 1000, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031000}}
+.image-navigation .nav-next {
+  right: 0;
+}
+/* line 1004, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031004}}
+.image-navigation .meta-nav {
+  font-size: 32px;
+  font-weight: 300;
+  vertical-align: -4px;
+}
+/**
+ * 5.8 Author Bio
+ * ----------------------------------------------------------------------------
+ */
+/* line 1017, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031017}}
+.author-info {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 30px 0 10px;
+  text-align: left;
+  /* gallery & video post formats */
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 1023, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031023}}
+  .author-info {
+    max-width: 1160px;
+  }
+}
+/* line 1027, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031027}}
+.single .author-info {
+  padding: 50px 0 0;
+}
+/*.author.sidebar .author-info {
+	max-width: 1040px;
+	padding: 30px 376px 10px 60px;
+}*/
+/* line 1037, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031037}}
+.author-avatar .avatar {
+  float: left;
+  margin: 0 30px 30px 0;
+}
+/* line 1042, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031042}}
+.single-format-status .author-description {
+  color: #f7f5e7;
+}
+/* line 1046, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031046}}
+.author-description .author-title {
+  clear: none;
+  font: 300 italic 25px "cantarellregular", Tahoma, Arial, sans-serif;
+  margin: 0 0 8px;
+}
+/* line 1052, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031052}}
+.author-link {
+  color: #f8b647;
+  margin-left: 2px;
+}
+/* line 1057, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031057}}
+.author.archive .author-link {
+  display: none;
+}
+/**
+ * 5.11 404
+ * ----------------------------------------------------------------------------
+ */
+/* line 1067, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031067}}
+.error404 .page-title {
+  line-height: 0.6;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+@media (min-width: 992px) {
+  /* line 1074, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031074}}
+  .error404 .page-title {
+    padding: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1077, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031077}}
+  .error404 .page-title {
+    padding: 300px;
+  }
+}
+/* line 1080, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031080}}
+.error404 .page-title:before {
+  color: #ec2104;
+  content: "\f423";
+  font-size: 964px;
+  line-height: 0.6;
+  overflow: hidden;
+  position: absolute;
+  left: 7px;
+  top: 28px;
+}
+/**
+ * 5.12 Comments
+ * ----------------------------------------------------------------------------
+ */
+/* line 1097, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031097}}
+.comments-title,
+.comment-list,
+.comment-reply-title,
+.must-log-in,
+.comment-respond .comment-form,
+.comment-respond iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  /* line 1108, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031108}}
+  .comments-title,
+  .comment-list,
+  .comment-reply-title,
+  .must-log-in,
+  .comment-respond .comment-form,
+  .comment-respond iframe {
+    max-width: 600px;
+  }
+}
+/* line 1114, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031114}}
+.sidebar .comments-title,
+.sidebar .comment-list,
+.sidebar .must-log-in,
+.sidebar .comment-reply-title,
+.sidebar .comment-navigation,
+.sidebar .comment-respond .comment-form {
+  max-width: 1040px;
+  padding-left: 60px;
+  padding-right: 376px;
+}
+/* line 1126, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031126}}
+.comments-title {
+  font-family: "cantarellregular", Tahoma, Arial, sans-serif;
+  font-size: 18px;
+}
+/* line 1132, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031132}}
+.comment-list .children {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+}
+/* line 1139, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031139}}
+.comment-list > li:after,
+.comment-list > li:before {
+  background: url(images/dotted-line.png) repeat left top;
+  background-size: 4px 4px;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+/* line 1148, D:\xampp\htdocs\jtg\wp-content\themes\twentythirteen\css\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/jtg\/wp-content\/themes\/twentythirteen\/css\/style\.less}line{font-family:\000031148}}
+.comment-list > li:last-child:after {
+  display: none;
 }

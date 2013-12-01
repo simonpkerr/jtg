@@ -392,9 +392,7 @@ img.wp-smiley,
             }
         }
     }
-    
-    
-    
+
     .current_page_item,
     .current_page_ancestor,
     .current-menu-item,
@@ -405,6 +403,109 @@ img.wp-smiley,
         }	
     } 
 }
+
+.navigation {
+    .nav-previous {
+	float: left;
+    }
+
+    .nav-next {
+        float: right;
+    }
+
+    a {
+        color: @brand-primary;
+        &:hover {
+            color: darken(@brand-primary, 30%);
+            text-decoration: none;
+        }
+    }
+ 
+}
+
+.paging-navigation {
+    background-color: @body-bg;
+    padding: 40px 0;
+    .nav-links {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        @media (min-width: @screen-lg){
+            max-width: @screen-lg / 2;
+        }
+    }
+    
+    .nav-next {
+	padding: 13px 0;
+        
+        .meta-nav {
+            margin-left: 10px;
+        }
+    }
+
+    a {
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 300;
+        &:hover {
+            .meta-nav {
+                background-color: @brand-secondary;
+                text-decoration: none;
+            }    
+        } 
+    }
+
+    .meta-nav {
+        background-color: @brand-secondary;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        font-size: 26px;
+        padding: 3px 0 8px;
+        text-align: center;
+        width: 50px;
+    }
+
+    .nav-previous .meta-nav {
+        margin-right: 10px;
+        padding: 17px 0 23px;
+        width: 80px;
+    }
+
+}
+
+.post-navigation {
+    background-color: #fff;
+    color: @brand-secondary;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 20px 0;
+    .nav-links {
+        margin: 0 auto;
+        max-width: 100%;
+        @media (min-width: @screen-lg){
+            max-width: @screen-lg / 2;
+        }
+    }
+    
+    a {
+        max-width: @screen-lg / 4;
+        &[rel="next"] {
+            float: right;
+            text-align: right;
+        }
+        &[rel="prev"] {
+            float: left;
+            text-align: left;
+        }
+    }
+}
+
+/*.sidebar .post-navigation .nav-links {
+	padding: 0 376px 0 60px;
+}*/
+
 
 /**
  * Content
@@ -847,12 +948,208 @@ footer.entry-meta {
             content: "\f402";
         }
     } 
-  
+    
+    .entry-attachment,
+    .type-attachment p {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .entry-attachment {
+         .attachment {
+            display: inline-block;
+        }
+    }
+
+    .entry-caption {
+        text-align: left;
+    }
+
+    .entry-description {
+        margin: 20px auto 0;
+    }
+
+    .entry-caption p:last-child,
+    .entry-description p:last-child {
+        margin: 0;
+    }
+
+    .site-main .sidebar-container {
+        display: none;
+    }
+    
+}
+
+.image-navigation {
+    margin: 0 auto;
+    position: relative;
+    a:hover {
+	text-decoration: none;
+    }
+
+    .nav-previous,
+    .nav-next {
+        position: absolute;
+        top: 50px;
+    }
+
+    .nav-previous {
+        left: 0;
+    }
+
+    .nav-next {
+        right: 0;
+    }
+
+    .meta-nav {
+        font-size: 32px;
+        font-weight: 300;
+        vertical-align: -4px;
+    }
 
 }
 
+/**
+ * 5.8 Author Bio
+ * ----------------------------------------------------------------------------
+ */
 
+.author-info {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 30px 0 10px;
+    text-align: left; /* gallery & video post formats */
+    width: 100%;
+    @media (min-width: @screen-lg){
+        max-width: @screen-lg - 40%;
+    }
+    
+    .single & {
+        padding: 50px 0 0;
+    }
+}
 
+/*.author.sidebar .author-info {
+	max-width: 1040px;
+	padding: 30px 376px 10px 60px;
+}*/
 
+.author-avatar .avatar {
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.single-format-status .author-description {
+    color: #f7f5e7;
+}
+
+.author-description .author-title {
+    clear: none;
+    font: 300 italic 25px @font-family-sans-serif;
+    margin: 0 0 8px;
+}
+
+.author-link {
+    color: @brand-secondary;
+    margin-left: 2px;
+}
+
+.author.archive .author-link {
+    display: none;
+}
+
+/**
+ * 5.11 404
+ * ----------------------------------------------------------------------------
+ */
+
+.error404 {
+    .page-title {
+	line-height: 0.6;
+	margin: 0;
+        padding: 0;
+	position: relative;
+	text-align: center;
+	width: auto;
+        @media (min-width: @screen-md){
+            padding: 150px;
+        }
+        @media (min-width: @screen-lg){
+            padding: 300px;
+        }
+        &:before {
+            color: @brand-warning;
+            content: "\f423";
+            font-size: 964px;
+            line-height: 0.6;
+            overflow: hidden;
+            position: absolute;
+            left: 7px;
+            top: 28px;
+        }
+    } 
+}
+
+/**
+ * 5.12 Comments
+ * ----------------------------------------------------------------------------
+ */
+.comments-title,
+.comment-list,
+.comment-reply-title,
+.must-log-in,
+.comment-respond .comment-form,
+.comment-respond iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
+    @media (min-width: @screen-lg){
+        max-width: @screen-lg / 2;    
+    }
+}
+
+.sidebar {  
+    .comments-title,
+    .comment-list,
+    .must-log-in,
+    .comment-reply-title,
+    .comment-navigation,
+    .comment-respond .comment-form {
+        max-width: 1040px;
+        padding-left: 60px;
+        padding-right: 376px;
+    }
+}
+
+.comments-title {
+    font-family: @font-family-sans-serif;
+    font-size: @font-size-large;
+}
+
+.comment-list {
+    .children {
+	list-style-type: none;
+	padding: 0;
+        margin-left: 20px;
+    }
+    
+    > li {
+        &:after,
+        &:before {
+            background: url(images/dotted-line.png) repeat left top;
+            background-size: 4px 4px;
+            content: "";
+            display: block;
+            height: 1px;
+            width: 100%;
+        }
+        &:last-child:after {
+            display: none;
+        }  
+    } 
+
+} 
 
 
