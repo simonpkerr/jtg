@@ -275,12 +275,13 @@ img.wp-smiley,
             padding-top: 3em;
         }
         .widget-area {
-            .widget_categories {
-                ul {
-                    .content-columns(2, 1em);
-                    @media (min-width: @screen-md){
-                        .content-columns(1, 0);
-                    }
+            .widget_categories,
+            .widget_archive {
+                ul,
+                ol {
+                    list-style-type: none;
+                    padding-left: 0;
+                    .content-columns(1, 0);
                     @media (min-width: @screen-lg){
                         .content-columns(2, 1em);
                     }
@@ -339,9 +340,16 @@ img.wp-smiley,
         display: none;
     }
     
-    .navbar-brand.h1 {
-        font-size: floor(@font-size-base * 2.40);
-        
+    .navbar-brand { 
+        &.h1 {
+            font-size: floor(@font-size-base * 2.40);
+            span {
+                display: none;
+                @media (min-width: @screen-xs){
+                    display: inline;
+                }
+            }
+        }
     }
     
 }
@@ -360,7 +368,7 @@ img.wp-smiley,
            position: relative;
         a {
             font-family: @font-family-serif;
-            font-size: ceil(@font-size-base * 1.70);
+            font-size: ceil(@font-size-large * 2);
             color: @navbar-default-color;
             display: block;
             line-height: @line-height-computed;
@@ -424,7 +432,7 @@ img.wp-smiley,
 }
 
 .paging-navigation {
-    background-color: @body-bg;
+    background-color: #fff;
     padding: 40px 0;
     .nav-links {
         margin: 0 auto;
@@ -1106,7 +1114,7 @@ footer.entry-meta {
     max-width: 100%;
     width: 100%;
     @media (min-width: @screen-lg){
-        max-width: @screen-lg / 2;    
+        max-width: @screen-lg / 1.8;    
     }
 }
 
@@ -1117,9 +1125,14 @@ footer.entry-meta {
     .comment-reply-title,
     .comment-navigation,
     .comment-respond .comment-form {
-        max-width: 1040px;
-        padding-left: 60px;
-        padding-right: 376px;
+        list-style-type: none;
+        padding-left: 0;
+        padding-right: 20px;
+        @media (min-width: @screen-lg){
+            padding-right: 200px;
+        }
+        
+        
     }
 }
 
@@ -1148,8 +1161,111 @@ footer.entry-meta {
         &:last-child:after {
             display: none;
         }  
-    } 
+    }
+    .edit-link {
+	margin-left: 20px;
+    }
 
 } 
 
+.comment-body {
+    padding: 24px 0;
+    position: relative;
+}
 
+.comment-author {
+    float: left;
+    max-width: 74px;
+    
+    .avatar {
+	display: block;
+	margin-bottom: 10px;
+    }
+    
+    .fn {
+	word-wrap: break-word;
+    }
+}
+
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login {
+    color: @brand-info;
+    font-size: @font-size-base;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.says {
+    display: none;
+}
+
+.no-avatars {
+    .comment-author {
+        margin: 0 0 5px;
+        max-width: 100%;
+        position: relative;
+    }
+    .comment-metadata,
+    .comment-content,
+    .comment-list .reply {
+        width: 100%;
+    }
+    
+}
+
+.bypostauthor > .comment-body .fn:before {
+    content: "\f408";
+    vertical-align: text-top;
+}
+
+.comment-metadata,
+.comment-awaiting-moderation,
+.comment-content,
+.comment-list .reply {
+    float: none;
+    display: block;
+    width: 100%;
+        
+    @media (min-width: @screen-md){ 
+        float: right;
+        width: 79%;
+        word-wrap: break-word;
+        width: -webkit-calc(~"100% - 100px");
+        width:         calc(~"100% - 100px");
+    }
+}
+
+
+.comment-metadata {
+    margin-bottom: 20px;
+}
+
+.ping-meta {
+    color: #a2a2a2;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.comment-awaiting-moderation {
+    color: #a2a2a2;
+    &:before {
+	content: "\f414";
+	margin-right: 5px;
+	position: relative;
+	top: -2px;
+    }
+}
+
+.comment-reply-link:before,
+.comment-reply-login:before {
+    content: "\f412";
+    margin-right: 3px;
+}
+
+.respond-form {
+    padding: 30px 0;
+}
+
+/* footer */

@@ -1223,7 +1223,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	display: none;
 }*/
 
-.comment-body {
+/*.comment-body {
 	padding: 24px 0;
 	position: relative;
 }
@@ -1231,18 +1231,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .comment-author {
 	float: left;
 	max-width: 74px;
-}
+}*/
 
-.comment-author .avatar {
+/*.comment-author .avatar {
 	display: block;
 	margin-bottom: 10px;
-}
+}*/
 
-.comment-author .fn {
+/*.comment-author .fn {
 	word-wrap: break-word;
-}
+}*/
 
-.comment-author .fn,
+/*.comment-author .fn,
 .comment-author .url,
 .comment-reply-link,
 .comment-reply-login {
@@ -1250,34 +1250,34 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
-}
+}*/
 
-.says {
+/*.says {
 	display: none;
-}
+}*/
 
-.no-avatars .comment-author {
+/*.no-avatars .comment-author {
 	margin: 0 0 5px;
 	max-width: 100%;
 	position: relative;
-}
+}*/
 
-.no-avatars .comment-metadata,
+/*.no-avatars .comment-metadata,
 .no-avatars .comment-content,
 .no-avatars .comment-list .reply {
 	width: 100%;
-}
+}*/
 
-.bypostauthor > .comment-body .fn:before {
+/*.bypostauthor > .comment-body .fn:before {
 	content: "\f408";
 	vertical-align: text-top;
-}
+}*/
 
-.comment-list .edit-link {
+/*.comment-list .edit-link {
 	margin-left: 20px;
-}
+}*/
 
-.comment-metadata,
+/*.comment-metadata,
 .comment-awaiting-moderation,
 .comment-content,
 .comment-list .reply {
@@ -1286,9 +1286,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	width: -webkit-calc(100% - 124px);
 	width:         calc(100% - 124px);
 	word-wrap: break-word;
-}
+}*/
 
-.comment-meta,
+/*.comment-meta,
 .comment-meta a {
 	color: #a2a2a2;
 	font-size: 13px;
@@ -1296,19 +1296,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .comment-meta a:hover {
 	color: #ea9629;
-}
+}*/
 
-.comment-metadata {
+/*.comment-metadata {
 	margin-bottom: 20px;
-}
+}*/
 
-.ping-meta {
+/*.ping-meta {
 	color: #a2a2a2;
 	font-size: 13px;
 	line-height: 2;
-}
+}*/
 
-.comment-awaiting-moderation {
+/*.comment-awaiting-moderation {
 	color: #a2a2a2;
 }
 
@@ -1323,10 +1323,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .comment-reply-login:before {
 	content: "\f412";
 	margin-right: 3px;
-}
+}*/
 
 /* Comment form */
-.comment-respond {
+/*.comment-respond {
 	background-color: #f7f5e7;
 	padding: 30px 0;
 }
@@ -1437,7 +1437,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .sidebar .no-comments {
 	padding-left: 60px;
 	padding-right: 376px;
-}
+}*/
 
 
 /**
@@ -1474,10 +1474,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.site-main .widget-area {
+/*.site-main .widget-area {
 	float: right;
 	width: 300px;
-}
+}*/
 
 
 /**
@@ -1485,7 +1485,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.widget {
+/*.widget {
 	background-color: rgba(247, 245, 231, 0.7);
 	font-size: 14px;
 	-webkit-hyphens: auto;
@@ -1528,25 +1528,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .widget a:hover {
 	color: #ea9629;
-}
+}*/
 
 /* Search widget */
-.search-form .search-submit {
+/*.search-form .search-submit {
 	display: none;
-}
+}*/
 
 /* RSS Widget */
-.widget_rss .rss-date {
+/*.widget_rss .rss-date {
 	display: block;
 }
 
 .widget_rss .rss-date,
 .widget_rss li > cite {
 	color: #a2a2a2;
-}
+}*/
 
 /* Calendar Widget */
-.widget_calendar table,
+/*.widget_calendar table,
 .widget_calendar td {
 	border: 0;
 	border-collapse: separate;
@@ -1582,7 +1582,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .widget_calendar tbody .pad, .site-footer .widget_calendar tbody .pad {
 	background-color: transparent;
-}
+}*/
 
 
 /**
@@ -1590,7 +1590,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * ----------------------------------------------------------------------------
  */
 
-.site-footer {
+/*.site-footer {
 	background-color: #e8e5ce;
 	color: #686758;
 	font-size: 14px;
@@ -1660,7 +1660,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #wpstats {
 	display: block;
 	margin: -10px auto 0;
-}
+}*/
 
 
 /**
