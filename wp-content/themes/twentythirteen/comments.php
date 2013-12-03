@@ -58,7 +58,7 @@ if (post_password_required())
 
     <?php if (comments_open()) : ?>
 
-        <section id="respond" class="respond-form">
+        <section id="respond" class="respond-form col-sm-12 col-md-8 col-lg-6">
 
             <h3 id="comment-form-title"><?php comment_form_title(__("Leave a Reply", "twentythirteen"), __("Leave a Reply to", "twentythirteen") . ' %s'); ?></h3>
 

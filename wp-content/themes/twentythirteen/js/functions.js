@@ -13,7 +13,7 @@
 	 * than the rest of the page, to help the footer always visually clear
 	 * the sidebar.
 	 */
-	$( function() {
+	/*$( function() {
 		if ( body.is( '.sidebar' ) ) {
 			var sidebar   = $( '#secondary .widget-area' ),
 			    secondary = ( 0 == sidebar.length ) ? -40 : sidebar.height(),
@@ -22,12 +22,12 @@
 			if ( margin > 0 && _window.innerWidth() > 999 )
 				$( '#colophon' ).css( 'margin-top', margin + 'px' );
 		}
-	} );
+	} );*/
 
 	/**
 	 * Enables menu toggle for small screens.
 	 */
-	( function() {
+	/*( function() {
 		var nav = $( '#site-navigation' ), button, menu;
 		if ( ! nav )
 			return;
@@ -46,7 +46,7 @@
 		$( '.menu-toggle' ).on( 'click.twentythirteen', function() {
 			nav.toggleClass( 'toggled-on' );
 		} );
-	} )();
+	} )();*/
 
 	/**
 	 * Makes "skip to content" link work correctly in IE9 and Chrome for better
@@ -68,7 +68,7 @@
 	/**
 	 * Arranges footer widgets vertically.
 	 */
-	if ( $.isFunction( $.fn.masonry ) ) {
+	/*if ( $.isFunction( $.fn.masonry ) ) {
 		var columnWidth = body.is( '.sidebar' ) ? 228 : 245;
 
 		$( '#secondary .widget-area' ).masonry( {
@@ -77,5 +77,5 @@
 			gutterWidth: 20,
 			isRTL: body.is( '.rtl' )
 		} );
-	}
+	}*/
 } )( jQuery );
