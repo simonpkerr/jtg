@@ -28,9 +28,9 @@
 // Scaffolding
 // -------------------------
 
-@body-bg:               #FAF5DA;
-@footer-bg:             lighten(@body-bg, 60%);
-@sidebar-bg:            lighten(@brand-secondary, 50%);
+@body-bg:               #FFFEF4;
+@footer-bg:             #FFF;
+@sidebar-bg:            #FEF0D1;
 @text-color:            #180D3F;
 @text-color-light:      #FFFCE4;
 
@@ -39,26 +39,28 @@
 
 @link-color:            #47631D;
 @link-hover-color:      darken(@link-color, 15%);
+@sidebar-link-color:    #372091;
+@sidebar-link-hover-color: darken(@sidebar-link-color, 40%);
 
 // Typography
 // -------------------------
 @font-face {
     font-family: 'journalregular';
-    src: url('../fonts/journal-webfont.eot');
-    src: url('../fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/journal-webfont.woff') format('woff'),
-         url('../fonts/journal-webfont.ttf') format('truetype'),
-         url('../fonts/journal-webfont.svg#journalregular') format('svg');
+    src: url('fonts/journal-webfont.eot');
+    src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/journal-webfont.woff') format('woff'),
+         url('fonts/journal-webfont.ttf') format('truetype'),
+         url('fonts/journal-webfont.svg#journalregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face { 
     font-family: 'cantarellregular';
-    src: url('../fonts/Cantarell-Regular-webfont.eot');
-    src: url('../fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Cantarell-Regular-webfont.woff') format('woff'),
-         url('../fonts/Cantarell-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    src: url('fonts/Cantarell-Regular-webfont.eot');
+    src: url('fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Cantarell-Regular-webfont.woff') format('woff'),
+         url('fonts/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -286,9 +288,9 @@
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
-@navbar-default-toggle-hover-bg:           #ddd;
-@navbar-default-toggle-icon-bar-bg:        #ccc;
-@navbar-default-toggle-border-color:       #ddd;
+@navbar-default-toggle-hover-bg:           @brand-secondary;
+@navbar-default-toggle-icon-bar-bg:        @body-bg;
+@navbar-default-toggle-border-color:       lighten(@brand-primary, 30%);
 
 
 // Inverted navbar

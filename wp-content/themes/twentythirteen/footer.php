@@ -10,17 +10,23 @@
  */
 ?>
 
-		</div><!-- #main -->
-		<footer id="colophon" class="site-footer col-sm-12 clearfix" role="contentinfo">
-			<?php get_sidebar( 'main' ); ?>
+</div><!-- #main -->
+<footer id="colophon" class="site-footer row clearfix" role="contentinfo">
+    <div id="floating-footer">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/sk.png" alt="Simon Kerr"/>
+        <p class="h1">webby, arty, bloggy stuff.</p>
 
-			<div class="site-info">
-				<?php do_action( 'twentythirteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentythirteen' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentythirteen' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentythirteen' ), 'WordPress' ); ?></a>
-			</div><!-- .site-info -->
-		</footer><!-- #colophon -->
-	</div><!-- #page -->
+    </div>
+    <?php get_sidebar('main'); ?>
 
-	<?php wp_footer(); ?>
+    <div class="site-info col-sm-12">
+        <?php do_action('twentythirteen_credits'); ?>
+        <a href="<?php echo esc_url(__('http://wordpress.org/', 'twentythirteen')); ?>" title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'twentythirteen'); ?>"><?php printf(__('Proudly powered by %s', 'twentythirteen'), 'WordPress'); ?></a>
+    </div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js" ></script>
 </body>
 </html>
