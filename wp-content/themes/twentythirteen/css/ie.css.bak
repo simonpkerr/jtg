@@ -116,9 +116,9 @@ img.alignleft {
 	margin-bottom: 0;
 }
 
-.widget {
+/*.widget {
 	background: #f7f5e7;
-}
+}*/
 
 .site-footer .widget {
 	background: none;

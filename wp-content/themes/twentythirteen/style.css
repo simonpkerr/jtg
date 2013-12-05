@@ -4616,7 +4616,7 @@ img.wp-smiley,
   display: none;
 }
 .site-header .navbar-brand.h1 {
-  font-size: 33px;
+  font-size: 36px;
 }
 .site-header .navbar-brand.h1 span {
   display: none;
@@ -5099,11 +5099,6 @@ footer.entry-meta {
  * 5.6 Attachments
  * ----------------------------------------------------------------------------
  */
-.attachment .hentry {
-  background-color: #f8b647;
-  margin: 0;
-  padding: 0;
-}
 .attachment .entry-title:before {
   content: "\f416";
   margin-right: 10px;
@@ -5112,7 +5107,7 @@ footer.entry-meta {
   clear: none;
   color: inherit;
   float: right;
-  padding: 9px 0 0;
+  padding: 9px 0 10px;
   text-align: right;
 }
 .attachment footer.entry-meta {
@@ -5158,6 +5153,11 @@ footer.entry-meta {
 }
 .image-navigation .nav-previous,
 .image-navigation .nav-next {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  -webkit-box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.2);
+  padding: 0 10px;
   position: absolute;
   top: 50px;
 }

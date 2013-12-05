@@ -351,7 +351,7 @@ img.wp-smiley,
     
     .navbar-brand { 
         &.h1 {
-            font-size: floor(@font-size-base * 2.40);
+            font-size: @font-size-xlarge;
             span {
                 display: none;
                 @media (min-width: @screen-xs){
@@ -377,7 +377,7 @@ img.wp-smiley,
            position: relative;
         a {
             font-family: @font-family-serif;
-            font-size: ceil(@font-size-large * 2);
+            font-size: @font-size-xlarge;
             color: @navbar-default-color;
             display: block;
             line-height: @line-height-computed;
@@ -932,11 +932,7 @@ footer.entry-meta {
  */
 
 .attachment {
-    .hentry {
-        background-color: @brand-secondary;
-        margin: 0;
-        padding: 0;
-    }
+    
     .entry-title:before {
         content: "\f416";
         margin-right: 10px;
@@ -945,7 +941,7 @@ footer.entry-meta {
         clear: none;
         color: inherit;
         float: right;
-        padding: 9px 0 0;
+        padding: 9px 0 10px;
         text-align: right;
     }
     
@@ -1006,6 +1002,10 @@ footer.entry-meta {
 
     .nav-previous,
     .nav-next {
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        .box-shadow(3px 3px 0 0 rgba(0, 0, 0, 0.2));
+        padding: 0 10px;
         position: absolute;
         top: 50px;
     }
