@@ -560,6 +560,12 @@ img.wp-smiley,
         
 }
 
+//search box in 404 and elsewhere
+.search-submit {
+    .button-default();
+    .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+
 .sidebar {
     .entry-header {
         margin-bottom: 30px;
@@ -1081,28 +1087,25 @@ footer.entry-meta {
  */
 
 .error404 {
+    .page-header {
+        margin-top: 0; 
+    }
     .page-title {
-	line-height: 0.6;
+	//line-height: 0.6;
 	margin: 0;
         padding: 0;
 	position: relative;
-	text-align: center;
+	//text-align: center;
 	width: auto;
-        @media (min-width: @screen-md){
-            padding: 150px;
-        }
-        @media (min-width: @screen-lg){
-            padding: 300px;
-        }
         &:before {
             color: @brand-warning;
             content: "\f423";
-            font-size: 964px;
-            line-height: 0.6;
-            overflow: hidden;
-            position: absolute;
-            left: 7px;
-            top: 28px;
+            font-size: 150px;
+            //line-height: 0.6;
+            //overflow: hidden;
+            //position: absolute;
+            //left: 7px;
+            //top: 28px;
         }
     } 
 }

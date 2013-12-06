@@ -4790,6 +4790,87 @@ img.wp-smiley,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
   border-radius: 0;
 }
+.search-submit {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #372291;
+  border-color: #2f1d7c;
+}
+.search-submit:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.search-submit:hover,
+.search-submit:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.search-submit:active,
+.search-submit.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.search-submit.disabled,
+.search-submit[disabled],
+fieldset[disabled] .search-submit {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.search-submit:hover,
+.search-submit:focus,
+.search-submit:active,
+.search-submit.active,
+.open .dropdown-toggle.search-submit {
+  color: #ffffff;
+  background-color: #2a1a70;
+  border-color: #1c124b;
+}
+.search-submit:active,
+.search-submit.active,
+.open .dropdown-toggle.search-submit {
+  background-image: none;
+}
+.search-submit.disabled,
+.search-submit[disabled],
+fieldset[disabled] .search-submit,
+.search-submit.disabled:hover,
+.search-submit[disabled]:hover,
+fieldset[disabled] .search-submit:hover,
+.search-submit.disabled:focus,
+.search-submit[disabled]:focus,
+fieldset[disabled] .search-submit:focus,
+.search-submit.disabled:active,
+.search-submit[disabled]:active,
+fieldset[disabled] .search-submit:active,
+.search-submit.disabled.active,
+.search-submit[disabled].active,
+fieldset[disabled] .search-submit.active {
+  background-color: #372291;
+  border-color: #2f1d7c;
+}
 .sidebar .entry-header {
   margin-bottom: 30px;
 }
@@ -5219,33 +5300,19 @@ footer.entry-meta {
  * 5.11 404
  * ----------------------------------------------------------------------------
  */
+.error404 .page-header {
+  margin-top: 0;
+}
 .error404 .page-title {
-  line-height: 0.6;
   margin: 0;
   padding: 0;
   position: relative;
-  text-align: center;
   width: auto;
-}
-@media (min-width: 992px) {
-  .error404 .page-title {
-    padding: 150px;
-  }
-}
-@media (min-width: 1200px) {
-  .error404 .page-title {
-    padding: 300px;
-  }
 }
 .error404 .page-title:before {
   color: #ec2104;
   content: "\f423";
-  font-size: 964px;
-  line-height: 0.6;
-  overflow: hidden;
-  position: absolute;
-  left: 7px;
-  top: 28px;
+  font-size: 150px;
 }
 /**
  * 5.12 Comments
