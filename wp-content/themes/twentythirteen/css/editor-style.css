@@ -1,29 +1,28 @@
-/*
-Theme Name: Twenty Thirteen
+/* Theme Name: Twenty Thirteen
 Description: Used to style the TinyMCE editor.
+
 */
 
 
-/**
- * Table of Contents:
- *
- * 1.0 - Body
- * 2.0 - Headings
- * 3.0 - Text Elements
- * 4.0 - Links
- * 5.0 - Alignment
- * 6.0 - Tables
- * 7.0 - Images
- * 8.0 - Post Formats
- * 9.0 - RTL
- * ----------------------------------------------------------------------------
- */
+/*
+  Table of Contents:
+ 
+  1.0 - Body
+  2.0 - Headings
+  3.0 - Text Elements
+  4.0 - Links
+  5.0 - Alignment
+  6.0 - Tables
+  7.0 - Images
+  8.0 - Post Formats
+  9.0 - RTL
+*/
 
 
-/**
- * 1.0 Body
- * ----------------------------------------------------------------------------
- */
+/*
+ 1.0 Body
+ --------
+*/
 
 html .mceContentBody {
 	font-size: 100%;
@@ -39,10 +38,10 @@ body {
 }
 
 
-/**
- * 2.0 Headings
- * ----------------------------------------------------------------------------
- */
+/*
+ 2.0 Headings
+ ----------------------------------------------------------------------------
+*/
 
 h1,
 h2,
@@ -94,9 +93,9 @@ hr {
 }
 
 
-/**
- * 3.0 Text Elements
- * ----------------------------------------------------------------------------
+/*
+  3.0 Text Elements
+  -----------------
  */
 
 p {
