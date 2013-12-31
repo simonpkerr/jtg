@@ -14,7 +14,7 @@
 <footer id="colophon" class="site-footer row clearfix" role="contentinfo">
     <div id="floating-footer">
         <img src="<?php echo get_template_directory_uri(); ?>/images/sk.png" alt="Simon Kerr"/>
-        <p class="h1">webby, arty, bloggy stuff.</p>
+        <p class="h1"><a href="/web">webby</a>, <a href="/art">arty</a>, <a href="/">bloggy</a> stuff.</p>
 
     </div>
     <?php get_sidebar('main'); ?>

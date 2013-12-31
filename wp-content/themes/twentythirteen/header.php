@@ -38,6 +38,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <a id="scroll-top" href="#content" title="scroll to top"><span class="genericon genericon-uparrow">&nbsp;</span></a>
 	<div id="page" class="hfeed container">
 		<header id="masthead" class="site-header row" role="banner">
                         <a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
